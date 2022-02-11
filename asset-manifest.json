@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/EcommerceFrontend/static/css/main.ceb5a6ea.chunk.css",
+    "main.js": "/EcommerceFrontend/static/js/main.31cd9465.chunk.js",
+    "main.js.map": "/EcommerceFrontend/static/js/main.31cd9465.chunk.js.map",
+    "runtime-main.js": "/EcommerceFrontend/static/js/runtime-main.0e97bf8a.js",
+    "runtime-main.js.map": "/EcommerceFrontend/static/js/runtime-main.0e97bf8a.js.map",
+    "static/css/2.b4e4841b.chunk.css": "/EcommerceFrontend/static/css/2.b4e4841b.chunk.css",
+    "static/js/2.c9096fd3.chunk.js": "/EcommerceFrontend/static/js/2.c9096fd3.chunk.js",
+    "static/js/2.c9096fd3.chunk.js.map": "/EcommerceFrontend/static/js/2.c9096fd3.chunk.js.map",
+    "index.html": "/EcommerceFrontend/index.html",
+    "static/css/2.b4e4841b.chunk.css.map": "/EcommerceFrontend/static/css/2.b4e4841b.chunk.css.map",
+    "static/css/main.ceb5a6ea.chunk.css.map": "/EcommerceFrontend/static/css/main.ceb5a6ea.chunk.css.map",
+    "static/js/2.c9096fd3.chunk.js.LICENSE.txt": "/EcommerceFrontend/static/js/2.c9096fd3.chunk.js.LICENSE.txt",
+    "static/media/bananas.e30fa5af.jpg": "/EcommerceFrontend/static/media/bananas.e30fa5af.jpg",
+    "static/media/berries.bd16e160.jpg": "/EcommerceFrontend/static/media/berries.bd16e160.jpg",
+    "static/media/blueberries.5588fcfc.jpg": "/EcommerceFrontend/static/media/blueberries.5588fcfc.jpg",
+    "static/media/lime.7db43ab8.jpg": "/EcommerceFrontend/static/media/lime.7db43ab8.jpg",
+    "static/media/oranges.19000ac6.jpg": "/EcommerceFrontend/static/media/oranges.19000ac6.jpg",
+    "static/media/pomegranate.e27cc5d8.jpg": "/EcommerceFrontend/static/media/pomegranate.e27cc5d8.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0e97bf8a.js",
+    "static/css/2.b4e4841b.chunk.css",
+    "static/js/2.c9096fd3.chunk.js",
+    "static/css/main.ceb5a6ea.chunk.css",
+    "static/js/main.31cd9465.chunk.js"
+  ]
+}
