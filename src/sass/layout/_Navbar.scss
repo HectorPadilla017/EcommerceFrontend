@@ -1,0 +1,151 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  max-width: 1420px;
+  margin: 10px auto;
+  z-index: 100;
+  @include tab {
+    margin: 0 auto 10px;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: transparent;
+    border-radius: 80px;
+    margin: 0 20px;
+    padding: 10px 0;
+    transition: 0.6s;
+    @include tab {
+      margin: 0;
+      border-radius: 0;
+      // background-color: #fff;
+    }
+    .contflex1 {
+      display: flex;
+      align-items: center;
+      margin-left: 10px;
+      .logo {
+        color: #fa7c91;
+        margin: 0 20px;
+        font-size: 1.5rem;
+        transition: 0.3s ease-out;
+        strong {
+          font-weight: normal;
+          color: rgba(212, 20, 67, 1);
+          transition: 0.3s ease-out;
+        }
+        @include tab {
+          display: none;
+        }
+      }
+      .menu {
+        display: none;
+        color: #fff;
+        line-height: normal;
+        // transition: 0.3s ease-out;
+        @include tab {
+          display: initial;
+        }
+      }
+      li {
+        @include tab {
+          display: none;
+        }
+      }
+    }
+    .contflex2 {
+      display: flex;
+      align-items: center;
+      margin-right: 10px;
+      .search {
+        display: none;
+        span {
+          .ic {
+            transition: 0.1s ease-out;
+          }
+        }
+        @include tab {
+          display: initial;
+        }
+      }
+      .icons {
+        display: initial;
+        @include tab {
+          display: none;
+        }
+      }
+    }
+    .contnav {
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      li {
+        margin: 0 10px;
+        a {
+          color: #fff;
+          transition: 0.2s ease-out;
+          &:hover {
+            color: #fa7c91;
+          }
+          p {
+            font-size: 12px;
+          }
+          @include tab {
+            color: #000;
+          }
+        }
+      }
+      .marg {
+        margin: 0 5px;
+      }
+      .input {
+        opacity: 0;
+        width: 0;
+        border-radius: 15px;
+        transition: 0.3s ease-out;
+        &:hover {
+          opacity: 1;
+          width: 180px;
+          color: #000;
+        }
+      }
+      .icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        &:hover {
+          color: #000;
+        }
+      }
+    }
+  }
+  .bi {
+    color: #000;
+  }
+  .sticky {
+    top: 0;
+    background-color: rgba(255, 184, 201, 1);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.25);
+    .contflex1{
+      .menu {
+        color: #000;
+        transition: 1s ease-out;
+      }
+    }
+    span {
+      .ic {
+        color: #000;
+        transition: 0.3s ease-out;
+      }
+    }
+    @include tab {
+      padding: 4px 0;
+      box-shadow: none;
+      background-color: #fff;
+    }
+  }
+}

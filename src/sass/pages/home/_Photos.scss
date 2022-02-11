@@ -1,0 +1,117 @@
+.containerPhotos{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  // @include movLarge {
+  //   display: none;
+  // }
+  .photos {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -180px;
+    @include tab {
+      top: -127px;
+    }
+    .col1{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      @include movLarge {
+        flex-direction: column;
+      }
+    }
+    .columnPhoto {
+      display: flex;
+      flex-direction: column;
+      .photo {
+        padding: 4px;
+        object-fit: cover;
+        border-radius: 16%;
+        z-index: 1;
+        @include desk {
+          padding: 3px;
+        }
+        @include lap {
+          padding: 2px;
+        }
+        @include movLarge {
+          padding: 4px;
+        }
+      }
+      .p1 {
+        width: 155px;
+        height: 155px;
+        @include desk {
+          width: 130px;
+          height: 130px;
+        }
+        @include lap {
+          width: 100px;
+          height: 100px;
+        }
+        @include tab {
+          width: 70px;
+          height: 70px;
+        }
+        @include movLarge {
+          width: 130px;
+          height: 130px;
+        }
+        @include movNormal {
+          width: 100px;
+          height: 100px;
+        }
+      }
+      .p2 {
+        width: 310px;
+        height: 310px;
+        @include desk {
+          width: 285px;
+          height: 285px;
+        }
+        @include lap {
+          width: 255px;
+          height: 255px;
+        }
+        @include tab {
+          width: 225px;
+          height: 225px;
+        }
+        @include movLarge {
+          width: 130px;
+          height: 130px;
+        }
+        @include movNormal {
+          width: 100px;
+          height: 100px;
+        }
+      }
+    }
+    .gm1 {
+      margin-top: 35px;
+      @include movLarge {
+        margin-top: 0;
+      }
+    }
+    .gm2 {
+      margin-top: 65px;
+      @include movLarge {
+        margin-top: 0;
+      }
+    }
+    .gm3 {
+      margin-bottom: 35px;
+      @include movLarge {
+        margin-bottom: 0;
+      }
+    }
+    .gm4 {
+      margin-top: 25px;
+      @include movLarge {
+        margin-top: 0;
+      }
+    }
+  }
+}

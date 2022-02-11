@@ -1,0 +1,116 @@
+.containerSignUp{
+  margin: auto;
+  .titles{
+    margin-bottom: 16px;
+    text-align: center;
+  }
+  form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .inputIcon{
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      width: 100%;
+      height: 40px;
+      margin-bottom: 12px;
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      &:focus{
+        color: rgba(255,165,186,1);
+        box-shadow: rgba(255,165,186,1) 0px 2px 8px 0px;
+      }
+      .icon{
+        width: 45px;
+        height: 100%;
+        padding: 6px;
+        border-radius: 4px 0 0 4px;
+        color: #fff;
+        background-color: rgba(255,165,186,1);
+      }
+      input{
+        width: 100%;
+        height: 100%;
+        padding-left: 8px;
+        outline: none;
+        border: 0px solid;
+        border-radius: 0 4px 4px 0;
+        &:focus{
+          border: 2px solid rgba(255,165,186,1);
+        }
+      }
+      #password{
+        border-radius: 0;
+      }
+    }
+    .submit{
+      margin-top: 24px;
+      padding: 8px 40px;
+      border: 0px solid;
+      border-radius: 20px;
+      color: #fff;
+      // background-color: rgba(212, 20, 67, 1);
+      background-image: linear-gradient(40deg, rgba(255,165,186,1), rgba(212, 20, 67, 1));
+      transition: 200ms ease-out;
+      &:hover{
+        // background-color: rgba(255,165,186,1);
+        box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(212, 20, 67, 0.5), .125rem .125rem 1rem rgba(255,165,186,0.5);
+        // box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        // box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, rgba(212, 20, 67, 0.8) 0 -3px 10px inset;
+      }
+    }
+  }
+}
+@include desk{
+    
+}
+@include lap{
+
+}
+@include tab{
+
+}
+@include movLarge{
+
+}
+@include movNormal{
+
+}
+@include movSmall{
+
+}
+
+// <!-- HTML !-->
+// <button class="button-62" role="button">Button 62</button>
+
+// /* CSS */
+// .button-62 {
+//   background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+//   border: 0;
+//   border-radius: 12px;
+//   color: #FFFFFF;
+//   cursor: pointer;
+//   display: inline-block;
+//   font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+//   font-size: 16px;
+//   font-weight: 500;
+//   line-height: 2.5;
+//   outline: transparent;
+//   padding: 0 1rem;
+//   text-align: center;
+//   text-decoration: none;
+//   transition: box-shadow .2s ease-in-out;
+//   user-select: none;
+//   -webkit-user-select: none;
+//   touch-action: manipulation;
+//   white-space: nowrap;
+// }
+
+// .button-62:not([disabled]):focus {
+//   box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+// }
+
+// .button-62:not([disabled]):hover {
+//   box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+// }

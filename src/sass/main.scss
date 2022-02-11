@@ -1,0 +1,34 @@
+// Utilities
+@import 'utilities/variables';
+@import 'utilities/mixins';
+
+// Vendors
+@import 'vendors/Bulma';
+
+// Base
+@import 'base/base';
+@import 'base/typography';
+
+// Components
+@import 'components/Modal';
+@import 'components/Cart';
+@import 'components/InputPassword';
+
+// Layout
+@import 'layout/Sign/Sign';
+@import 'layout/Sign/SignUp';
+@import 'layout/Sign/SignIn';
+@import 'layout/Navbar';
+@import 'layout/Drawer';
+@import 'layout/LayoutCart';
+@import 'layout/SocialNetworks';
+@import 'layout/Footer';
+
+// Pages / Home
+@import 'pages/home/Banner';
+@import 'pages/home/BannerAnimated';
+@import 'pages/home/Products';
+@import 'pages/home/Info';
+@import 'pages/home/Photos';
+@import 'pages/home/Reviews';
+@import 'pages/home/CardsSlider';

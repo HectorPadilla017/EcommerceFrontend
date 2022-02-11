@@ -1,0 +1,109 @@
+.containerReviews {
+  position: relative;
+  background-color: #fff;
+  height: 768px;
+  @include tab {
+    height: 668px;
+  }
+  @include movLarge {
+    height: 418px;
+  }
+  .reviews{
+    position: relative;
+    padding: 64px;
+    @include movLarge {
+      padding: 0;
+    }
+    .contSwiper{
+      margin-top: 284px;
+      @include tab {
+        margin-top: 184px;
+      }
+      @include movLarge {
+        margin-top: 484px;
+      }
+      @include movNormal {
+        margin-top: 324px;
+      }
+    }
+    .slider{
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 200px;
+      padding: 16px;
+      .photo{
+        width: 70px;
+        height: 70px;
+        margin: 8px;
+        border-radius: 100%;
+        object-fit: cover;
+      }
+      .conText{
+        width: 350px;
+        text-align: center;
+        padding: 8px;
+        strong{
+          font-weight: 600;
+          color: rgba(182,35,71,1);
+        }
+      }
+    }
+  }
+}
+
+/* Carrusel Reviews */
+/* Left */
+#swiper-replace .swiper-button-prev {
+  position: absolute;
+  color: rgba(249,140,166,0.4);
+  top: 40%;
+  width: 50px;
+  height: 28px;
+  border-radius: 20px;
+  cursor: default;
+  background: #fef5f6;
+  transition: all 200ms ease;
+  &:hover{
+    color: rgba(249,140,166,1);
+  }
+  &::after{
+    font-family: 'Titan One', cursive;
+    font-size: 22px;
+    margin-bottom: 4px;
+    font-weight: normal;
+    content: '<';
+  }
+}
+
+
+/* Right */
+#swiper-replace .swiper-button-next {
+  position: absolute;
+  color: rgba(249,140,166,0.4);
+  top: 40%;
+  width: 50px;
+  height: 28px;
+  border-radius: 20px;
+  cursor: default;
+  background: #fef5f6;
+  transition: all 200ms ease;
+  &:hover{
+    color: rgba(249,140,166,1);
+  }
+  &::after{
+    font-family: 'Titan One', cursive;
+    font-size: 22px;
+    margin-bottom: 4px;
+    font-weight: normal;
+    content: '>';
+  }
+}
+
+/* Pagination */
+.swiper-pagination-bullet {
+  background-color: #f98ca6 !important;
+}
+

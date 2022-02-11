@@ -1,0 +1,118 @@
+.containerFooter {
+  position: relative;
+  background-color: rgba(254, 245, 246, 1);
+  height: 584px;
+  @include movLarge {
+    height: auto;
+  }
+  .footer {
+    position: relative;
+    padding: 16px 0;
+    padding-top: 303px;
+    @include tab {
+      padding: 16px 40px;
+      padding-top: 303px;
+    }
+    @include movLarge {
+      padding: 16px 16px;
+      padding-top: 303px;
+    }
+    .contact {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 16px auto;
+      padding: 8px;
+      max-width: 704px;
+      @include movNormal {
+        flex-direction: column;
+        justify-content: center;
+        .titles{
+          text-align: center;
+        }
+      }
+    }
+    .social{
+      display: flex;
+      flex-direction: column;
+      .redes{
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        flex-direction: row;
+        padding: 8px;
+        @include movNormal {
+          justify-content: center;
+        }
+        a{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 0 4px;
+          background-color: #fff;
+          border-radius: 20px;
+          transition: 0.2s ease-out;
+          color: rgba(250,124,145,.6);
+          &:hover{
+            color: rgba(250,124,145,1);
+          }
+          .ico{
+            margin: 8px;
+            width: 18px;
+            height: 18px;
+          }
+        }
+      }
+      .conText{
+        padding: 8px;
+        p{
+          font-weight: bold;
+          strong{
+            color: rgba(182,35,71,1);
+          }
+        }
+      }
+    }
+    .footerEnd{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin: 32px 0;
+      padding: 8px;
+      @include movNormal {
+        margin: 8px 0;
+      }
+      .pag{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        margin: 0;
+        @include movNormal {
+          flex-direction: column;
+        }
+        a{
+          transition: 0.2s ease-out;
+          color: rgba(0, 0, 0, 0.75);
+          margin: 8px;
+          // @include movNormal {
+          //   margin: 4px;
+          // }
+          p{
+            font-weight: bold;
+          }
+          &:hover{
+            color: #FA7C91;
+          }
+        }
+      }
+      .copy{
+        margin-top: 8px;
+        p{
+          margin-top: 8px;
+        }
+      }
+    }
+  }
+}
